@@ -1,0 +1,46 @@
+body {
+    margin-bottom: 180px;
+    background: #1f1f25;
+    color: bisque;
+    font-size: 125%;
+}
+
+h1 {
+    color: #7aeb97;
+    text-align: center;
+}
+
+h2 {
+    color: #ceeb7a;
+    text-align: center;
+}
+
+h3 {
+    padding-top: 30px;
+    color: #eb7ace;
+}
+
+h4 {
+    color: #977aeb;
+}
+
+main {
+    margin: auto;
+    max-width: 900px;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline solid inherit;
+}
+
+a:hover {
+    color: #baa6f2;
+}
+
+footer {
+    text-align: center ;
+	font-variant: small-caps ;
+	clear: both ;
+	padding: 2em 0 ;
+}

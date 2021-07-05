@@ -1,22 +1,25 @@
+/* General style */
 body {
-    margin-bottom: 180px;
     background: #1f1f25;
-    color: bisque;
+    color: #f5dfc4;
     font-size: 125%;
+    padding-bottom: 60px;
+}
+
+main {
+    margin: auto;
+    max-width: 960px;
 }
 
 h1 {
     color: #7aeb97;
-    text-align: center;
 }
 
 h2 {
     color: #ceeb7a;
-    text-align: center;
 }
 
 h3 {
-    padding-top: 30px;
     color: #eb7ace;
 }
 
@@ -24,23 +27,80 @@ h4 {
     color: #977aeb;
 }
 
-main {
-    margin: auto;
-    max-width: 900px;
+p {
+    margin-top: 6px;
 }
 
 a {
     color: inherit;
-    text-decoration: underline solid inherit;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #baa6f2;
+    color: #bda2fb;
+}
+
+code {
+    color: #7aebd0 
+}
+
+img {
+    margin: 6px auto;
+    display: block;
+    outline: solid;
+    outline-color: #70b870;
+}
+
+hr {
+    border: 0;
+    border-top: 2px dashed #4e4e5e;
+}
+
+blockquote {
+    border-left: 2px solid #4e4e5e;
+    padding-left: 6px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+cite {
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 footer {
-    text-align: center ;
-	font-variant: small-caps ;
-	clear: both ;
-	padding: 2em 0 ;
+	font-variant: small-caps;
+    margin-top: 60px;
+}
+
+/* General style - groups and sub-elements */
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+h1, h2, footer {
+    text-align: center;
+}
+
+p a, footer a {
+    text-decoration: underline;
+}
+
+ol li {
+    padding: 6px;
+}
+
+/* General style - classes */
+.sidenote {
+    font-style: italic;
+}
+
+.greentext {
+    color: #70b870;
+}
+
+/* General style - classes - groups */
+.sidenote, .greentext, blockquote, cite {
+    font-size: 75%;
 }

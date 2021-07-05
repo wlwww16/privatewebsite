@@ -49,6 +49,7 @@ img {
     display: block;
     outline: solid;
     outline-color: #70b870;
+    width: 50%;
 }
 
 hr {

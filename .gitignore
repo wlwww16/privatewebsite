@@ -1,5 +1,8 @@
-# VSCodium
-.vscode/
-
 # Icon file
 assets/favicon.psd
+
+# dotfiles (for local use only, no need to be on the web server)
+.vscode/
+.under-construction.html
+assets/.construction-pepe-wink.jpg
+assets/.construction-pepe.jpg

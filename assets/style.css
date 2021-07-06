@@ -101,7 +101,34 @@ ol li {
     color: #70b870;
 }
 
+.meta {
+    animation: pulseColours 2s infinite;
+}
+
 /* General style - classes - groups */
 .sidenote, .greentext, blockquote, cite {
     font-size: 75%;
+}
+
+/* Animations */
+@keyframes pulseColours {
+    0% {
+        color: #ea6868;
+    }
+
+    25% {
+        color: #7aceeb; 
+    }
+
+    50% {
+        color: #7aeb97;
+    }
+
+    75% {
+        color: #7aceeb;
+    }
+
+    100% {
+        color: #ea6868;
+    }
 }

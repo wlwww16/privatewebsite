@@ -76,22 +76,28 @@ cite {
 }
 
 footer {
-	font-variant: small-caps;
+    font-variant: small-caps;
     margin-top: 60px;
 }
 
 /* General style - groups and sub-elements */
-h2, h3, h4, h5 {
+h2,
+h3,
+h4,
+h5 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-h1, h2, footer {
+h1,
+h2,
+footer {
     text-align: center;
-    
+
 }
 
-p a, footer a {
+p a,
+footer a {
     text-decoration: underline;
 }
 
@@ -99,7 +105,8 @@ ol li {
     padding: 6px;
 }
 
-p, ul {
+p,
+ul {
     margin-top: 6px;
 }
 
@@ -124,7 +131,10 @@ p, ul {
 }
 
 /* General style - classes - groups */
-.sidenote, .greentext, blockquote, cite {
+.sidenote,
+.greentext,
+blockquote,
+cite {
     font-size: 75%;
 }
 
@@ -135,7 +145,7 @@ p, ul {
     }
 
     25% {
-        color: #7aceeb; 
+        color: #7aceeb;
     }
 
     50% {

@@ -1,7 +1,7 @@
 /* General style */
 body {
-    background: #1f1f25;
-    color: #f5dfc4;
+    background: #1a1b1d;
+    color: #fce1be;
     font-size: 125%;
     padding-bottom: 60px;
 }
@@ -9,10 +9,14 @@ body {
 main {
     margin: auto;
     max-width: 960px;
+    margin-top: 6px;
 }
 
 h1 {
     color: #7aeb97;
+    font-size: 48px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 h2 {
@@ -27,8 +31,8 @@ h4 {
     color: #977aeb;
 }
 
-p {
-    margin-top: 6px;
+h5 {
+    color: #7aceeb;
 }
 
 a {
@@ -37,11 +41,11 @@ a {
 }
 
 a:hover {
-    color: #bda2fb;
+    color: #63b8f0;
 }
 
 code {
-    color: #7aebd0 
+    color: #7aeba9
 }
 
 img {
@@ -49,18 +53,19 @@ img {
     display: block;
     outline: solid;
     outline-color: #70b870;
-    width: 50%;
+    max-width: 50%;
 }
 
 hr {
     border: 0;
     border-top: 2px dashed #4e4e5e;
+    max-width: 50%;
 }
 
 blockquote {
     border-left: 2px solid #4e4e5e;
     padding-left: 6px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     position: relative;
 }
 
@@ -76,12 +81,14 @@ footer {
 }
 
 /* General style - groups and sub-elements */
-h1, h2, h3, h4 {
-    margin: 0;
+h2, h3, h4, h5 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h1, h2, footer {
     text-align: center;
+    
 }
 
 p a, footer a {
@@ -90,6 +97,10 @@ p a, footer a {
 
 ol li {
     padding: 6px;
+}
+
+p, ul {
+    margin-top: 6px;
 }
 
 /* General style - classes */
@@ -103,6 +114,13 @@ ol li {
 
 .meta {
     animation: pulseColours 2s infinite;
+}
+
+.pageDivider {
+    border: 0;
+    border-top: 1px solid #4e4e5e;
+    border-bottom: 1px solid #4e4e5e;
+    max-width: 100%;
 }
 
 /* General style - classes - groups */

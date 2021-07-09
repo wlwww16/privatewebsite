@@ -6,4 +6,5 @@ assets/favicon.psd
 ./*
 assets/.*
 
+# don't ignore the gitignore
 !.gitignore

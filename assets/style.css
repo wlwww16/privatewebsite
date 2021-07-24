@@ -130,6 +130,14 @@ ul {
     max-width: 100%;
 }
 
+.optional {
+    font-style: italic;
+}
+
+.optional::after {
+    content: " (optional)"
+}
+
 /* General style - classes - groups */
 .sidenote,
 .greentext,

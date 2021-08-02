@@ -1,4 +1,4 @@
-/* General style */
+/* elements */
 body {
     background: #1a1b1d;
     color: #fce1be;
@@ -17,22 +17,40 @@ h1 {
     font-size: 48px;
     margin-top: 3px;
     margin-bottom: 3px;
+    text-align: center;
 }
 
 h2 {
     color: #ceeb7a;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h3 {
     color: #eb7ace;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h4 {
     color: #977aeb;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h5 {
     color: #7aceeb;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 6px;
+}
+
+ul {
+    margin-top: 6px;
 }
 
 a {
@@ -67,36 +85,28 @@ blockquote {
     padding-left: 6px;
     margin-bottom: 0;
     position: relative;
+    font-size: 75%;
 }
 
 cite {
     margin: auto;
     margin-left: 40px;
     margin-right: 40px;
+    font-size: 75%;
 }
 
 footer {
     font-variant: small-caps;
     margin-top: 60px;
-}
-
-/* General style - groups and sub-elements */
-h2,
-h3,
-h4,
-h5 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-h1,
-h2,
-footer {
     text-align: center;
-
 }
 
-p a,
+/* sub-elements */
+
+p a {
+    text-decoration: underline;
+}
+
 footer a {
     text-decoration: underline;
 }
@@ -105,18 +115,16 @@ ol li {
     padding: 6px;
 }
 
-p,
-ul {
-    margin-top: 6px;
-}
+/* classes */
 
-/* General style - classes */
 .sidenote {
     font-style: italic;
+    font-size: 75%;
 }
 
 .greentext {
     color: #70b870;
+    font-size: 75%;
 }
 
 .meta {
@@ -138,15 +146,12 @@ ul {
     content: " (optional)"
 }
 
-/* General style - classes - groups */
-.sidenote,
-.greentext,
-blockquote,
-cite {
-    font-size: 75%;
+.showHide {
+    cursor: pointer;
 }
 
-/* Animations */
+/* animations */
+
 @keyframes pulseColours {
     0% {
         color: #ea6868;

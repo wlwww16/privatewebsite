@@ -150,6 +150,10 @@ ol li {
     cursor: pointer;
 }
 
+.standout {
+    color: #faf062;
+}
+
 /* animations */
 
 @keyframes pulseColours {

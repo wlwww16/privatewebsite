@@ -118,9 +118,13 @@ ol li {
 
 /* classes */
 
-.sidenote {
+.sidenote, .sidenote-centre {
     font-style: italic;
     font-size: 75%;
+}
+
+.sidenote-centre {
+	text-align: center;
 }
 
 .greentext {
@@ -153,6 +157,14 @@ ol li {
 
 .standout {
     color: #faf062;
+}
+
+.redletter {
+	color: #ea6868;
+}
+
+.blueletter {
+	color: #5c73db;
 }
 
 /* animations */
